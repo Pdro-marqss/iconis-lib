@@ -152,3 +152,7 @@ git push --tags
 npm publish --access public
 npm view @iconis/icons
 ```
+
+> **Nota:** Agora o git push --tags esta integrado com github actions através do arquivo release.yml... Fluxo de CI/CD
+
+> **Nota2:** Não precisa gerar tag ou versão de release quando não tem alteração em código da lib ou coisas que reflitam no npm.
