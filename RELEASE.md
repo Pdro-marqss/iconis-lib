@@ -145,6 +145,10 @@ npm whoami
 npm run build
 npm pack
 npm version patch
+git add .
+git commit -m "message"
+git push
+git push --tags
 npm publish --access public
 npm view @iconis/icons
 ```
