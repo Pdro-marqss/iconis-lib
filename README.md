@@ -1,15 +1,13 @@
 # iconis
 
-Coleção de ícones em **SVG inline** (strings) para uso em projetos web.
-
-- Sem webfont (evita “texto virando ícone” do nada por atraso de carregamento ou peso do bundle);
-- Ícones com `fill="currentColor"` para controlar cor via CSS/Tailwind;
-- Exports tipados e documentados usando TSDocs (tooltip que ajuda na hora de implementar);
-
 [![npm version](https://img.shields.io/npm/v/@iconis/icons)](https://www.npmjs.com/package/@iconis/icons)
 [![npm downloads](https://img.shields.io/npm/dw/@iconis/icons)](https://www.npmjs.com/package/@iconis/icons)
 [![license](https://img.shields.io/npm/l/@iconis/icons)](https://www.npmjs.com/package/@iconis/icons)
 
+Iconis é uma biblioteca de ícones em **SVG inline** para uso em projetos web.
+- Sem webfont - Evita “texto virando ícone” do nada por atraso de carregamento ou peso do bundle
+- Ícones com `fill="currentColor"` - Possibilita controlar cor via CSS/Tailwind;
+- Exports tipados e documentados usando TSDocs - Disponibilizando tooltip amigavel que ajuda na hora de implementar no código;
 
 ## Instalação
 No terminal do projeto:
@@ -17,7 +15,8 @@ No terminal do projeto:
 ```bash
 npm install @iconis/icons
 ```
-## Exemplo de uso em Angular 17+ (com inject)
+## Uso
+### Exemplo de uso em Angular 17+ (com inject)
 Em versões mais novas do angular temos o inject moderno disponivel, sem necessidade de usar o construtor.
 
 ```ts
@@ -38,7 +37,7 @@ export class ExemploComponent {
 }
 ```
 
-## Exemplo de uso em versões anteriores do Angular (com constructor)
+### Exemplo de uso em versões anteriores do Angular (com constructor)
 Em versões mais antigas do Angular precisamos injetar através do construtor, do modo tradicional.
 
 ```ts
@@ -58,3 +57,7 @@ export class ExemploComponent {
   }
 }
 ```
+> **Nota:** Por ser SVG inline (string), de modo geral basta importar o icone, atrelar a uma variavel (para ser usado no template html) e Sanitizar para aplicar no `innerHTML`
+
+## Licença
+MIT © [Iconis](https://github.com/Pdro-marqss/iconis-lib)

@@ -8,6 +8,14 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pdro-marqss/iconis-lib.git"
+  },
+  "homepage": "https://github.com/Pdro-marqss/iconis-lib.git#readme",
+  "bugs": {
+    "url": "https://github.com/Pdro-marqss/iconis-lib/issues"
+  },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
