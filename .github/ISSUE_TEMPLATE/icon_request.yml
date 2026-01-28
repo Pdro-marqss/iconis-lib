@@ -6,7 +6,7 @@ body:
   - type: input
     attributes:
       label: Nome sugerido do ícone (export)
-      description: Ex: `cameraRegular`, `cameraBold`
+      description: "ex: `cameraRegular`, `cameraBold`"
       placeholder: "ex: cameraRegular"
     validations:
       required: true
@@ -19,4 +19,4 @@ body:
   - type: textarea
     attributes:
       label: Contexto de uso
-      description: Onde vai usar? Ex: “carteira”, “aniversário”, “estorno”.
+      description: "Onde vai usar? Ex: 'carteira', 'aniversário', 'estorno'"
