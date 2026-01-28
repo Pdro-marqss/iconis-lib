@@ -1,0 +1,23 @@
+name: 🐛 Bug / Problema
+description: Reportar problema em ícone, build ou documentação
+title: "[bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    attributes:
+      label: O que aconteceu?
+      description: Descreva o problema de forma objetiva.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Como reproduzir
+      description: Passos para reproduzir (se aplicável).
+  - type: input
+    attributes:
+      label: Versão do pacote
+      placeholder: "ex: 0.1.1"
+  - type: textarea
+    attributes:
+      label: Ambiente
+      description: "Angular/Node/SO etc."

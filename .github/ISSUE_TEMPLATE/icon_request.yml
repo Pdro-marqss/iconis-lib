@@ -1,0 +1,35 @@
+name: ✨ Solicitar ícone novo
+description: Pedir um novo ícone para a coleção
+title: "[icon]: "
+labels: ["icon-request"]
+body:
+  - type: input
+    attributes:
+      label: Nome sugerido do ícone (export)
+      description: Ex: `cameraRegular`, `cameraBold`
+      placeholder: "ex: cameraRegular"
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Estilo/peso
+      options:
+        - Regular
+        - Bold
+        - Thin
+        - Duas variantes (ex: Regular + Bold)
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Referência visual
+      description: Cole links (Google Icons, Phosphor, SVG, imagem, print, etc).
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Contexto de uso
+      description: Onde vai usar? Ex: “carteira”, “aniversário”, “estorno”.
