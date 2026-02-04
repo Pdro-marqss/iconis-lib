@@ -19,6 +19,17 @@
   "publishConfig": {
     "access": "public"
   },
+  "keywords": [
+    "icons",
+    "svg",
+    "inline-svg",
+    "typescript",
+    "angular",
+    "ui",
+    "design",
+    "tree-shaking",
+    "web-icons"
+  ],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
