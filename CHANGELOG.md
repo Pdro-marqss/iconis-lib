@@ -13,6 +13,9 @@ Todas as mudanças relevantes deste projeto serão documentadas aqui.
 - Suporte a dois modos de import (namespace e subpath)
 - Novo icone: Star
 
+### Changed
+- Ajustes de documentação para a nova estrutura da lib
+
 ---
 
 ## [0.1.1] - 2026-01-30
