@@ -59,5 +59,8 @@ export class ExemploComponent {
 ```
 > **Nota:** Por ser SVG inline (string), de modo geral basta importar o icone, atrelar a uma variavel (para ser usado no template html) e Sanitizar para aplicar no `innerHTML`
 
+## Changelog
+Veja o histórico de mudanças entre versões em [CHANGELOG.md](./CHANGELOG.md)
+
 ## Licença
 MIT © [Iconis](https://github.com/Pdro-marqss/iconis-lib)
