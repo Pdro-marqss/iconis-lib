@@ -1,6 +1,6 @@
 {
   "name": "@iconis/icons",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Ícones SVG inline (strings) para projetos web",
   "license": "MIT",
   "sideEffects": false,
