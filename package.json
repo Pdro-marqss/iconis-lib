@@ -12,15 +12,28 @@
     "type": "git",
     "url": "git+https://github.com/Pdro-marqss/iconis-lib.git"
   },
-  "homepage": "https://github.com/Pdro-marqss/iconis-lib.git#readme",
+  "homepage": "https://github.com/Pdro-marqss/iconis-lib#readme",
   "bugs": {
     "url": "https://github.com/Pdro-marqss/iconis-lib/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
+    },
+    "./outlined": {
+      "types": "./dist/outlined.d.ts",
+      "import": "./dist/outlined.js",
+      "require": "./dist/outlined.cjs"
+    },
+    "./filled": {
+      "types": "./dist/filled.d.ts",
+      "import": "./dist/filled.js",
+      "require": "./dist/filled.cjs"
     }
   },
   "files": [
@@ -29,7 +42,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --dts --clean",
+    "build": "tsup src/index.ts src/outlined.ts src/filled.ts --format esm,cjs --dts --clean",
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
